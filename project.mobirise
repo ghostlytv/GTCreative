@@ -34,12 +34,13 @@
     "siteFonts": [],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo1-128x128.png",
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "uniqCompNum": 6,
     "versionPublish": "4.12.0"
   },
@@ -47,11 +48,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Home | GearTwo Creative",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "file:///C:/Program%20Files%20(x86)/Mobirise4/resources/app.asar/web/app/builder/../../app/themes/mobirise4/components/header2/../_images/background4.jpg"
       },
       "components": [
         {
